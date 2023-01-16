@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>quiz</title>
+        <meta charset="UTF-8">
+        <link href="quiz.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="quizContainer" class="container">
+            <div class="title"><b>QUIZ</b></div>
+            <div id="questao" class="questao"></div>
+            <label class="opcao"><input type="radio" name="opcao" value="1"/><span id="opc1"></span></label>
+            <label class="opcao"><input type="radio" name="opcao" value="2"/><span id="opc2"></span></label>
+            <label class="opcao"><input type="radio" name="opcao" value="3"/><span id="opc3"></span></label>
+            <label class="opcao"><input type="radio" name="opcao" value="4"/><span id="opc4"></span></label>
+            <button id="proximoBotao" class="prox-bt" onclick="carregarProxQuestao();">Próxima questão </button>
+        </div>
+        <div id="resultado" class="resultado container" style="display: none;">
+        </div>
+        <script src="question.js"></script>
+        <script src="quiz-scrip.js"></script>
+    </body>
+</html>

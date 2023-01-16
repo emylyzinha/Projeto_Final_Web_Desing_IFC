@@ -1,0 +1,154 @@
+#menu {
+    position: relative;
+    top: 0px;
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    background-color: #f3e8d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #020202;
+}
+body {
+    font-family: Cambria;
+    font-size: x-large;
+    background-color: #f3e8d4;
+    padding: 0px;
+    margin: 0px;
+}
+#corpo {
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 20px;
+}
+p {
+     text-align: center;
+}
+#blocktext {
+    margin-left: 150px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#resposta {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+h1 {
+    color:rgb(63, 61, 47);
+    transition: all 0.5s ease-in-out;
+}
+h1:hover {
+    color: rgb(126, 121, 92);
+    transition: all 0.5s ease-in-out;}
+h2 {
+    color:rgb(126, 121, 92);
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+h2:hover {
+    color: rgb(63, 61, 47);
+    transition: all 0.5s ease-in-out;
+}
+a:link {
+    text-decoration: none;
+    color: #020202;
+}
+a:visited {
+    color: #020202;
+}
+a:hover {
+    color: #020202;
+}
+a:active {
+    color: #020202;
+}
+a:hover {
+    color: rgb(126, 121, 92);
+    transition: all 0.5s ease-in-out;
+}
+table#tabela tr td{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+}
+#tabela {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background:  #f3e8d4;
+}
+tr:nth-child(odd) {
+    background: rgb(184, 178, 145);
+}
+thead>tr:nth-child(odd) {
+    background: rgb(223, 215, 182);
+}
+tr:hover {
+    background-color:rgb(126, 121, 92);
+}
+#videozinRenascimento {
+    height: 680px;
+    width: 100%;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+#video {
+    padding-bottom: 50px;
+}
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+}
+img {
+    width: 100%;
+    text-align: center;
+    margin: 0; 
+    margin-top: 10px;
+    padding: 0;
+}
